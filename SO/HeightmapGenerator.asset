@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25ec3e8a0be1854f9351708bdd5f440, type: 3}
+  m_Name: HeightmapGenerator
+  m_EditorClassIdentifier: 
+  width: 512
+  height: 512
+  format: 4
+  noiseScale: 122.144684
+  octaves: 2
+  persistence: 0.5
+  lacunarity: 2
+  offset: {x: -3.025879, y: -945.64514}
+  heightMultiplier: 0.5
+  enableSharpness: 0
+  sharpnessIterations: 1
+  sharpnessIntensity: 0.3
+  randomizeSeed: 1
+  seed: 1725969185
+  randomOffsetRange: {x: -1000, y: 1000}
+  randomScaleRange: {x: 20, y: 200}
+  heightmapType: 12
